@@ -21,6 +21,7 @@ message["From"] = "byoridari605@gmail.com"
 message["To"] = "ksjoon28@naver.com"
 
 smtp = smtplib.SMTP_SSL(SMTP_SERVER,SMTP_PORT)
-smtp.login("byoridari605@gmail.com","qwertyuiop0605!")
+smtp.login("byoridari605@gmail.com","#######")
+#보안 상의 문제로 비밀번호를 안보이게 했습니다.
 sendEmail("ksjoon28@naver.com")
 smtp.quit()
